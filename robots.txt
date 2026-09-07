@@ -1,0 +1,19 @@
+# https://yeongubaeg.github.io/
+User-agent: *
+Allow: /sk/
+Disallow: /baekyeongu-portfolio.pdf
+
+# 생성형 검색 크롤러 명시적 허용
+User-agent: GPTBot
+Allow: /sk/
+
+User-agent: ClaudeBot
+Allow: /sk/
+
+User-agent: PerplexityBot
+Allow: /sk/
+
+User-agent: Google-Extended
+Allow: /sk/
+
+Sitemap: https://yeongubaeg.github.io/sitemap.xml
